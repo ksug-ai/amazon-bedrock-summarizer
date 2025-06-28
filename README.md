@@ -1,4 +1,4 @@
-# AWS Bedrock PDF Summarizer Demo
+# Amazon Bedrock PDF Summarizer Demo
 
 This project showcases how to use **Amazon Bedrock** with **LangChain** to summarize a PDF using foundation models like Claude v2.
 
