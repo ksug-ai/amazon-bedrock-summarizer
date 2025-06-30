@@ -34,10 +34,10 @@ cd amazon-bedrock-summarizer
 # Install dependencies
 python3 -m venv venv
 source venv/bin/activate
-pip install jupyter notebook langchain boto3 pypdf2
+pip install jupyter notebook langchain langchain-aws boto3 pypdf2 langchain-community nltk
 ```
 
-Add your **AWS credentials** as environment variables or via `~/.aws/credentials`.
+Run `aws configure` or Add your **AWS credentials** as environment variables or via `~/.aws/credentials`.
 
 ---
 
