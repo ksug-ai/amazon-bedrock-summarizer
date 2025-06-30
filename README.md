@@ -32,7 +32,9 @@ git clone https://github.com/ksug-ai/amazon-bedrock-summarizer.git
 cd amazon-bedrock-summarizer
 
 # Install dependencies
-pip install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate
+pip install jupyter notebook langchain boto3 pypdf2
 ```
 
 Add your **AWS credentials** as environment variables or via `~/.aws/credentials`.
@@ -43,7 +45,7 @@ Add your **AWS credentials** as environment variables or via `~/.aws/credentials
 
 Use Jupyter or VSCode to open `bedrock_pdf_summarizer.ipynb`
 
-Upload a PDF file (e.g. `sample.pdf`) to the project root.
+Upload a PDF file (e.g. `sample1.pdf` or `sample3.pdf`) to the project root.
 
 Run all cells to see the summary generated live using Claude.
 
