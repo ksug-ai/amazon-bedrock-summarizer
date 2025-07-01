@@ -2,7 +2,7 @@
 
 This project showcases how to use **Amazon Bedrock** with **LangChain** to summarize a PDF using foundation models like Claude v2.
 
-> Built for the [KSUG.AI](https://ksug.ai) community — github.com/ksug-ai/amazon-bedrock-summarizer
+> Built for the [KSUG.AI](https://ksug.ai) community — [github.com/ksug-ai/amazon-bedrock-summarizer](https://github.com/ksug-ai/amazon-bedrock-summarizer)
 
 ---
 
